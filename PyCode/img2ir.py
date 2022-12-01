@@ -1,5 +1,5 @@
 import pr
-from imageio import imread
+from imageio.v2 import imread
 import sys
 
 def usage():
