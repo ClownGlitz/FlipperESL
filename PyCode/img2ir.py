@@ -143,7 +143,7 @@ fileName = sys.argv[1]
 
 #Output
 with open(f"{fileName}.ir", "w") as f:
-    f.write(f"""Filetype: IR Signals file
+    f.write(f"""Filetype: IR signals file
 Version: 1
 #
 name: {fileName}
